@@ -1,0 +1,120 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='20cm' height='20cm' viewBox='0 0 100.0 100.0'> 
+<g style='stroke-width:1; stroke:black'>
+<line x1="0" y1="0" x2="100" y2="0"
+style="fill:black; stroke-width:1"/>
+<line x1="0" y1="0" x2="0" y2="100"
+style="fill:black; stroke-width:1"/>
+<line x1="0" y1="100" x2="100" y2="100"
+style="fill:black; stroke-width:1"/>
+<line x1="100" y1="0" x2="100" y2="100"
+style="fill:black; stroke-width:1"/>
+<rect x='12.3' y='82.04' width='0.01' height='0.01' style='fill:black'/>
+<rect x='91.12' y='81.55' width='0.01' height='0.01' style='fill:black'/>
+<rect x='69.89' y='70.09' width='0.01' height='0.01' style='fill:black'/>
+<rect x='12.33' y='36.14' width='0.01' height='0.01' style='fill:black'/>
+<rect x='82.49' y='57.67' width='0.01' height='0.01' style='fill:black'/>
+<rect x='41.41' y='40.7' width='0.01' height='0.01' style='fill:black'/>
+<rect x='28.26' y='38.73' width='0.01' height='0.01' style='fill:black'/>
+<rect x='50.63' y='85.91' width='0.01' height='0.01' style='fill:black'/>
+<rect x='70.63' y='11.39' width='0.01' height='0.01' style='fill:black'/>
+<rect x='68.28' y='81.28' width='0.01' height='0.01' style='fill:black'/>
+<rect x='78.96' y='23.88' width='0.01' height='0.01' style='fill:black'/>
+<rect x='14.22' y='92.79' width='0.01' height='0.01' style='fill:black'/>
+<rect x='48.49' y='84.84' width='0.01' height='0.01' style='fill:black'/>
+<rect x='76.33' y='58.45' width='0.01' height='0.01' style='fill:black'/>
+<rect x='63.08' y='80.48' width='0.01' height='0.01' style='fill:black'/>
+<rect x='71.8' y='51.14' width='0.01' height='0.01' style='fill:black'/>
+<rect x='95.15' y='50.44' width='0.01' height='0.01' style='fill:black'/>
+<rect x='50.47' y='92.97' width='0.01' height='0.01' style='fill:black'/>
+<rect x='80.42' y='43.95' width='0.01' height='0.01' style='fill:black'/>
+<rect x='29.27' y='23.83' width='0.01' height='0.01' style='fill:black'/>
+<rect x='65.55' y='30.13' width='0.01' height='0.01' style='fill:black'/>
+<rect x='7.91' y='29.95' width='0.01' height='0.01' style='fill:black'/>
+<rect x='5.62' y='32.64' width='0.01' height='0.01' style='fill:black'/>
+<rect x='88.8' y='94.19' width='0.01' height='0.01' style='fill:black'/>
+<rect x='25.35' y='74.98' width='0.01' height='0.01' style='fill:black'/>
+<rect x='1.48' y='52.22' width='0.01' height='0.01' style='fill:black'/>
+<rect x='31.28' y='19.11' width='0.01' height='0.01' style='fill:black'/>
+<rect x='72.23' y='77.0' width='0.01' height='0.01' style='fill:black'/>
+<rect x='72.7' y='90.74' width='0.01' height='0.01' style='fill:black'/>
+<rect x='91.02' y='59.5' width='0.01' height='0.01' style='fill:black'/>
+<rect x='16.11' y='18.46' width='0.01' height='0.01' style='fill:black'/>
+<rect x='22.1' y='34.4' width='0.01' height='0.01' style='fill:black'/>
+<rect x='16.43' y='7.55' width='0.01' height='0.01' style='fill:black'/>
+<rect x='89.1' y='58.98' width='0.01' height='0.01' style='fill:black'/>
+<rect x='29.06' y='41.39' width='0.01' height='0.01' style='fill:black'/>
+<rect x='77.53' y='60.01' width='0.01' height='0.01' style='fill:black'/>
+<rect x='17.68' y='59.08' width='0.01' height='0.01' style='fill:black'/>
+<rect x='99.78' y='28.03' width='0.01' height='0.01' style='fill:black'/>
+<rect x='66.75' y='17.37' width='0.01' height='0.01' style='fill:black'/>
+<rect x='3.28' y='73.91' width='0.01' height='0.01' style='fill:black'/>
+<rect x='85.29' y='53.57' width='0.01' height='0.01' style='fill:black'/>
+<rect x='34.84' y='13.79' width='0.01' height='0.01' style='fill:black'/>
+<rect x='37.67' y='51.88' width='0.01' height='0.01' style='fill:black'/>
+<rect x='44.67' y='93.15' width='0.01' height='0.01' style='fill:black'/>
+<rect x='77.98' y='54.31' width='0.01' height='0.01' style='fill:black'/>
+<rect x='12.76' y='75.83' width='0.01' height='0.01' style='fill:black'/>
+<rect x='56.3' y='28.1' width='0.01' height='0.01' style='fill:black'/>
+<rect x='79.24' y='74.38' width='0.01' height='0.01' style='fill:black'/>
+<rect x='24.82' y='75.29' width='0.01' height='0.01' style='fill:black'/>
+<rect x='68.25' y='48.66' width='0.01' height='0.01' style='fill:black'/>
+<rect x='92.61' y='21.87' width='0.01' height='0.01' style='fill:black'/>
+<rect x='45.7' y='11.25' width='0.01' height='0.01' style='fill:black'/>
+<rect x='41.37' y='49.27' width='0.01' height='0.01' style='fill:black'/>
+<rect x='79.21' y='84.82' width='0.01' height='0.01' style='fill:black'/>
+<rect x='17.46' y='6.25' width='0.01' height='0.01' style='fill:black'/>
+<rect x='0.43' y='25.78' width='0.01' height='0.01' style='fill:black'/>
+<rect x='0.75' y='2.23' width='0.01' height='0.01' style='fill:black'/>
+<rect x='54.44' y='85.72' width='0.01' height='0.01' style='fill:black'/>
+<rect x='4.82' y='77.05' width='0.01' height='0.01' style='fill:black'/>
+<rect x='54.04' y='26.73' width='0.01' height='0.01' style='fill:black'/>
+<rect x='17.47' y='8.48' width='0.01' height='0.01' style='fill:black'/>
+<rect x='67.98' y='84.09' width='0.01' height='0.01' style='fill:black'/>
+<rect x='2.55' y='24.64' width='0.01' height='0.01' style='fill:black'/>
+<rect x='59.03' y='75.46' width='0.01' height='0.01' style='fill:black'/>
+<rect x='83.01' y='72.1' width='0.01' height='0.01' style='fill:black'/>
+<rect x='31.07' y='60.13' width='0.01' height='0.01' style='fill:black'/>
+<rect x='1.51' y='79.03' width='0.01' height='0.01' style='fill:black'/>
+<rect x='39.04' y='56.71' width='0.01' height='0.01' style='fill:black'/>
+<rect x='15.79' y='15.56' width='0.01' height='0.01' style='fill:black'/>
+<rect x='43.59' y='10.33' width='0.01' height='0.01' style='fill:black'/>
+<rect x='27.7' y='30.98' width='0.01' height='0.01' style='fill:black'/>
+<rect x='4.88' y='90.17' width='0.01' height='0.01' style='fill:black'/>
+<rect x='43.73' y='78.57' width='0.01' height='0.01' style='fill:black'/>
+<rect x='92.36' y='30.02' width='0.01' height='0.01' style='fill:black'/>
+<rect x='81.9' y='26.56' width='0.01' height='0.01' style='fill:black'/>
+<rect x='19.71' y='97.68' width='0.01' height='0.01' style='fill:black'/>
+<rect x='51.99' y='64.74' width='0.01' height='0.01' style='fill:black'/>
+<rect x='40.57' y='96.87' width='0.01' height='0.01' style='fill:black'/>
+<rect x='24.96' y='4.2' width='0.01' height='0.01' style='fill:black'/>
+<rect x='78.58' y='3.39' width='0.01' height='0.01' style='fill:black'/>
+<rect x='78.67' y='46.91' width='0.01' height='0.01' style='fill:black'/>
+<rect x='95.57' y='88.17' width='0.01' height='0.01' style='fill:black'/>
+<rect x='10.04' y='55.73' width='0.01' height='0.01' style='fill:black'/>
+<rect x='66.97' y='8.34' width='0.01' height='0.01' style='fill:black'/>
+<rect x='57.6' y='36.81' width='0.01' height='0.01' style='fill:black'/>
+<rect x='21.63' y='39.08' width='0.01' height='0.01' style='fill:black'/>
+<rect x='45.33' y='45.75' width='0.01' height='0.01' style='fill:black'/>
+<rect x='71.53' y='72.28' width='0.01' height='0.01' style='fill:black'/>
+<rect x='74.5' y='28.93' width='0.01' height='0.01' style='fill:black'/>
+<rect x='14.65' y='19.47' width='0.01' height='0.01' style='fill:black'/>
+<rect x='96.51' y='50.55' width='0.01' height='0.01' style='fill:black'/>
+<rect x='77.28' y='94.74' width='0.01' height='0.01' style='fill:black'/>
+<rect x='3.22' y='71.19' width='0.01' height='0.01' style='fill:black'/>
+<rect x='55.27' y='57.81' width='0.01' height='0.01' style='fill:black'/>
+<rect x='82.45' y='41.48' width='0.01' height='0.01' style='fill:black'/>
+<rect x='16.94' y='99.94' width='0.01' height='0.01' style='fill:black'/>
+<rect x='72.03' y='3.09' width='0.01' height='0.01' style='fill:black'/>
+<rect x='63.21' y='64.72' width='0.01' height='0.01' style='fill:black'/>
+<rect x='43.74' y='82.77' width='0.01' height='0.01' style='fill:black'/>
+<rect x='39.48' y='55.26' width='0.01' height='0.01' style='fill:black'/>
+<line x1="3.29" y1="60.14" x2="51.98" y2="60.14" 
+style="fill:black; stroke-width:0.25"/>
+<line x1="51.98" y1="60.14" x2="51.98" y2="74.97" 
+style="fill:black; stroke-width:0.25"/>
+<line x1="51.98" y1="74.97" x2="3.29" y2="74.97" 
+style="fill:black; stroke-width:0.25"/>
+<line x1="3.29" y1="74.97" x2="3.29" y2="60.14" 
+style="fill:black; stroke-width:0.25"/>
+</g>
+</svg>
