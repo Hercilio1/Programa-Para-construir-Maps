@@ -19,18 +19,45 @@ public class App {
 	private static ArrayList<String> areaFinal = new ArrayList<>();
 	//Obejto auxiliador na montagem de Strings
 	private static StringBuilder str;
+	private static int determinador = 1;
 	
 	public static void main(String[] args) {
-	    calculaArea("Caso010.txt");
-	    calculaArea("caso020");
-		calculaArea("caso030");
-		calculaArea("caso040");
-		calculaArea("caso050");
-		calculaArea("caso060");
-		calculaArea("caso070");
-		calculaArea("caso080");
-		calculaArea("caso090");
-		calculaArea("caso100");
+	    calculaArea("Caso010.txt", "Resultado010.svg");
+	    minas.clear();
+	    areaFinal.clear();
+	    calculaArea("caso020.txt", "Resultado020.svg");
+	    minas.clear();
+	    areaFinal.clear();
+	    determinador = 3;
+		calculaArea("caso030.txt", "Resultado030.svg");
+		minas.clear();
+	    areaFinal.clear();
+	    determinador = 4;
+		calculaArea("caso040.txt", "Resultado040.svg");
+		minas.clear();
+	    areaFinal.clear();
+	    determinador = 5;
+		calculaArea("caso050.txt", "Resultado050.svg");
+		minas.clear();
+	    areaFinal.clear();
+	    determinador = 6;
+		calculaArea("caso060.txt", "Resultado060.svg");
+		minas.clear();
+	    areaFinal.clear();
+	    determinador = 7;
+		calculaArea("caso070.txt", "Resultado070.svg");
+		minas.clear();
+	    areaFinal.clear();
+	    determinador = 8;
+		calculaArea("caso080.txt", "Resultado080.svg");
+		minas.clear();
+	    areaFinal.clear();
+	    determinador = 9;
+		calculaArea("caso090.txt", "Resultado090.svg");
+		minas.clear();
+	    areaFinal.clear();
+	    determinador = 10;
+		calculaArea("caso100.txt", "Resultado100.svg");
 	}
     
     public static void load(String arquivo) {
@@ -68,7 +95,7 @@ public class App {
 				float y2 = divisor(Integer.parseInt(sc.next()));
 				str = new StringBuilder();
 				str.append("<line x1=\""+x+"\" y1=\"" + y + "\" x2=\"" + x2 + "\" y2=\""+ y2 + "\" \n" +
-						"style=\"fill:black; stroke-width:0.25\"/>");
+						"style=\"fill:black; stroke-width:" + (0.0025 * altura) + "\"/>");
 				areaFinal.add(str.toString());
 			}
 			
@@ -87,8 +114,8 @@ public class App {
     }
 
 
-    public static void writer() {
-        Path path1 = Paths.get("teste2.svg"); 
+    public static void writer(String arquivo2) {
+        Path path1 = Paths.get(arquivo2); 
         // defaultCharset retorna a codificação padrão de 
         // textos (usualmente UTF-8) 
         try (PrintWriter writer = new PrintWriter (
@@ -97,18 +124,18 @@ public class App {
                     + altura + " " + largura + "'> "); 
             writer.println("<g style='stroke-width:1; stroke:black'>");
             
-            writer.println("<line x1=\"0\" y1=\"0\" x2=\"100\" y2=\"0\"\r\n" + 
-            		"style=\"fill:black; stroke-width:1\"/>");
-            writer.println("<line x1=\"0\" y1=\"0\" x2=\"0\" y2=\"100\"\r\n" + 
-            		"style=\"fill:black; stroke-width:1\"/>");
-            writer.println("<line x1=\"0\" y1=\"100\" x2=\"100\" y2=\"100\"\r\n" + 
-            		"style=\"fill:black; stroke-width:1\"/>");
-            writer.println("<line x1=\"100\" y1=\"0\" x2=\"100\" y2=\"100\"\r\n" + 
-            		"style=\"fill:black; stroke-width:1\"/>");
+            writer.println("<line x1=\"0\" y1=\"0\" x2=\"" + largura + "\" y2=\"0\"\r\n" + 
+            		"style=\"fill:black; stroke-width:" + 0.01 * altura + "\"/>");
+            writer.println("<line x1=\"0\" y1=\"0\" x2=\"0\" y2=\"" + altura + "\"\r\n" + 
+            		"style=\"fill:black; stroke-width:" + 0.01 * altura + "\"/>");
+            writer.println("<line x1=\"0\" y1=\"" + altura + "\" x2=\"" + largura + "\" y2=\"" + altura + "\"\r\n" + 
+            		"style=\"fill:black; stroke-width:" + 0.01 * altura + "\"/>");
+            writer.println("<line x1=\"" + largura + "\" y1=\"0\" x2=\"" + largura + "\" y2=\"" + altura + "\"\r\n" + 
+            		"style=\"fill:black; stroke-width:" + 0.01 * altura + "\"/>");
             
             
             for(int i=0; i<minas.size(); i++) {
-                writer.println(minas.get(i) + " width='0.01' height='0.01' style='fill:black'/>");
+                writer.println(minas.get(i) + " width='" + 0.0001 * largura * determinador + "' height='" + 0.0001 * altura * determinador + "' style='fill:black'/>");
             }
             
             for(int i=0; i<areaFinal.size(); i++) {
@@ -129,9 +156,9 @@ public class App {
 	 * minas e imprime os resultados na tela
 	 * @param arquivo
 	 */
-	public static void calculaArea(String arquivo) {
+	public static void calculaArea(String arquivo, String arquivo2) {
 		load(arquivo);
-		writer();
+		writer(arquivo2);
 		System.out.println("Finish");
 		
 	}
